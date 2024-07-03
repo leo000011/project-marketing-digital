@@ -1,0 +1,159 @@
+.dese {
+  background: #000;
+  position: relative;
+  padding: 0px 20px 70px;
+}
+
+.dese svg {
+  position: absolute;
+  top: -200px;
+  right: 0;
+  z-index: 0;
+}
+
+.dese .preco {
+  position: relative;
+  max-width: 1120px;
+  margin: 0 auto;
+  color: #fff;
+  align-content: center;
+  text-align: center;
+}
+
+.dese .preco h2 {
+  color: #f00;
+  font-size: 3.375rem;
+  font-family: "Roboto";
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 9px;
+}
+
+.titulo-rapido {
+  margin-bottom: 10px;
+}
+
+.preco h3 {
+  font-size: 1.875rem;
+  font-family: "Roboto";
+  line-height: 1;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.dese .preco h3:nth-of-type(2) {
+  font-family: "Poppins";
+  font-weight: 900;
+}
+.dese .preco h1 {
+  font-size: 5rem;
+  color: #12ff00;
+  font-family: "Poppins";
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 0 25px #12ff00;
+  margin-bottom: 9px;
+}
+
+.comprar a {
+  text-decoration: none;
+  background: #12ff00;
+  color: #fff;
+  padding: 15px 30px;
+  display: inline-block;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 0 #01f613b0;
+  font-family: "Poppins";
+  animation: zoon 2.5s ease infinite forwards;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+@keyframes zoon {
+  0% {
+    opacity: 1;
+    transform: scale();
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale();
+  }
+}
+
+.element-passo {
+  color: #fff;
+  margin: 0px auto;
+  max-width: 1080px;
+  background: #2b2b2b;
+  padding: 50px;
+  border: 4px solid #12ff00;
+  border-radius: 30px;
+  box-shadow: 0 0 30px 0 #000;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.text h1 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+
+.text p {
+  font-size: 1.188rem;
+  font-family: "Poppins";
+  line-height: 1.3;
+  text-align: center;
+}
+
+.beneficio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.beneficios {
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 200px;
+  height: 293px;
+  background: #090909;
+}
+
+.beneficios h3 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.25rem;
+}
+
+.beneficios p {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .dese svg {
+    top: -50px;
+  }
+
+  .dese .preco h2 {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .dese .preco h3 {
+    font-size: 1rem;
+  }
+  .dese .preco h1 {
+    font-size: 2.5rem;
+  }
+}

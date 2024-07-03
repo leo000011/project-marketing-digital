@@ -1,0 +1,14 @@
+{
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.75,
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "html.autoClosingTags": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}

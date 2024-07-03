@@ -1,0 +1,12 @@
+.header {
+  background: #000;
+  line-height: 27px;
+  padding: 10px 5px;
+}
+
+.header h3 {
+  font-size: 0.938rem;
+  color: #12ff00;
+  text-align: center;
+  font-weight: 600;
+}

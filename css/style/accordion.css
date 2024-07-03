@@ -1,0 +1,87 @@
+.garanta {
+  padding: 80px 10px;
+}
+
+[data-accordion] {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+[data-accordion] dt {
+  cursor: pointer;
+  background: #2b2b2b;
+  color: #12ff00;
+  font-family: "Roboto";
+  line-height: 1;
+  font-weight: 600;
+  padding: 10px 8px;
+}
+
+[data-accordion] dd {
+  display: none;
+  animation: show-down 1s ease forwards;
+  padding: 10px 8px;
+  font-size: 13px;
+}
+
+[data-accordion] dt::after {
+  cursor: pointer;
+  content: "→";
+  margin-left: 5px;
+}
+
+[data-accordion] dt.ativo::after {
+  content: "↑";
+  margin-left: 5px;
+}
+
+[data-accordion] dd.ativo {
+  display: block;
+  background: #2b2b2b;
+}
+
+@keyframes show-down {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -10px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.dia {
+  display: grid;
+  justify-self: center;
+}
+.dia-imagem {
+  justify-self: center;
+  max-width: 300px;
+  margin: 30px 0px 10px;
+}
+
+.dia img {
+  max-width: 100%;
+}
+
+.dia-text {
+  text-align: center;
+  max-width: 1020px;
+  justify-self: center;
+}
+
+.dia-text h1 {
+  color: #090909;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.dia-text p {
+  font-family: "Poppins";
+  font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  justify-content: center;
+}

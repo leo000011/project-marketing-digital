@@ -1,0 +1,34 @@
+.garanta-titulo {
+  background: #12ff00;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.garanta-titulo h1 {
+  font-size: 48px;
+  font-family: "Poppins";
+  font-weight: 800;
+  color: #090909;
+}
+
+.garanta {
+  background: #090909;
+  color: #fff;
+}
+
+.pergunta-titulo h2 {
+  text-align: center;
+  margin: 40px 0px;
+  color: #12ff00;
+  font-size: 52px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.pergunta-titulo span {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}

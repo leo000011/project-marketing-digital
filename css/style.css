@@ -1,0 +1,9 @@
+@import "./style/global.css";
+@import "./style/header.css";
+@import "./style/introducao.css";
+@import "./style/preco.css";
+@import "./style/quantidade.css";
+@import "./style/prova.css";
+@import "./style/oferta.css";
+@import "./style/garanta.css";
+@import "./style/accordion.css";
